@@ -1,0 +1,23 @@
+package by.bsu.sweets.model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Division {
+    private List<AbstractSweet> sweets;
+
+    public Division() {
+
+        sweets = new ArrayList<>();
+    }
+
+    public List<AbstractSweet> getSweets() {
+
+        return sweets;
+    }
+
+    public void add(AbstractSweet sweet) {
+
+        sweets.add(sweet);
+    }
+}
